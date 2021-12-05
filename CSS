@@ -1,0 +1,127 @@
+@font-face {
+  src: url(../font/Inter/Inter-Bold.woff2) format('woff2');
+  src: url(../font/Inter/Inter-Bold.woff) format('woff');
+  src: url(../font/Inter/Inter-Regular.woff2) format('woff2');
+  src: url(../font/Inter/Inter-Regular.woff) format('woff');
+  src: url(../font/Inter/Inter-SemiBold.woff2) format('woff2');
+  src: url(../font/Inter/Inter-SemiBold.woff) format('woff');
+  font-family: 'Inter';
+}
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+.flex-row {
+  display: flex;
+  border: 1px solid red;
+  position: relative;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 64px;
+  border: 1px solid rgb(25, 0, 255);
+}
+.logo {
+  border: 1px solid green;
+  background-image: url(../images/logo.svg);
+  width: 183px;
+  height: 32px;
+  margin-top: 30px;
+}
+.title {
+  border: 1px solid green;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-style: bold;
+}
+.subtitle {
+  border: 1px solid green;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+.two-again {
+  background-image: url(../images/two_again.png);
+  border: 1px solid green;
+  width: 765px;
+  height: 608px;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+.image {
+  background-repeat: no-repeat;
+}
+.square {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  margin-top: 64px;
+  right: 0;
+}
+.brief {
+  width: 175px;
+  border: 1px solid rgb(0, 255, 76);
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  color: #2f80ed;
+}
+.main-text {
+  min-width: 784px;
+  width: 80%;
+  border: 1px solid rgb(140, 0, 255);
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.flex-row_description {
+  display: flex;
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid rgb(38, 0, 255);
+  justify-content: space-between;
+  margin: auto;
+}
+.description {
+  
+}
